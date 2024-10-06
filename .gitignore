@@ -1,0 +1,59 @@
+# General build artifacts
+/target/
+*.jar
+*.war
+*.ear
+
+# IDE-specific files
+# IntelliJ IDEA
+/.idea/
+/*.iml
+/out/
+
+# Spring Tool Suite (STS)
+/.springBeans
+/.settings/
+/.project
+/.classpath
+
+# Maven-specific files
+/.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+target/
+
+# Gradle-specific files
+.gradle/
+/build/
+/gradle/
+/gradle-cache/
+
+# OS-specific files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+
+# Logs
+*.log
+/logs/
+/spring.log
+
+# Application-specific configuration files (sensitive data)
+/application.properties
+/application.yml
+
+# Dependency directories (Node.js, etc.)
+/node_modules/
+/bower_components/
+
+# Package managers lock files
+package-lock.json
+yarn.lock
+
+# Generated test reports and coverage
+/test-output/
+/target/surefire-reports/
+/coverage/
+/jacoco.exec
+/*.lcov
+
+# Temp files
+*.
