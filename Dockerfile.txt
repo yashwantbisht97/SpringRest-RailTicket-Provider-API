@@ -1,0 +1,6 @@
+FROM openjdk:17
+MAINTAINER "Yashwant Singh yashwantbisht97@hotmail.com"
+COPY target/railway-api.jar  /usr/app/
+WORKDIR /usr/app/
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "railway-api.jar"]
